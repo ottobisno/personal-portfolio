@@ -1,8 +1,12 @@
 import React from 'react';
+import '../styles/Navigation.css'
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
         <nav className='navbar navbar-expand-lg navbar-dark bg-darker'>
+            <a className="navbar-brand">
+                Otto Bisno
+            </a>
             <ul className='navbar-nav text-center ms-auto me-2'>
                 <li>
                     <a
@@ -28,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Contact')}
                         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} 
                     >
-                        Portfolio
+                        Contact
                     </a>
                 </li>
                 <li>
@@ -37,10 +41,12 @@ function Navigation({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Resume')}
                         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} 
                     >
-                        Portfolio
+                        Resume
                     </a>
                 </li>
             </ul>
         </nav>
     );
 };
+
+export default Navigation;
