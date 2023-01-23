@@ -1,0 +1,8 @@
+.bg-darker {
+    background-color: rgb(16, 16, 16);
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    color: var(--grey-text);
+}
