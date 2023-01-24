@@ -1,17 +1,24 @@
 import React from "react";
+import testImg from '../../images/note-taker.jpg';
 
 export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-            </p>
+            <div className='container project-container'>
+                <div className='row'>
+                    <div className='col-12 col-sm-6'>
+                        <div className='card bg-darker'>
+                            <img src={testImg} className='img-fluid'></img>
+                            <div className='card-body d-flex flex-column text-center align-items-center'>
+                                <h4>Note Taker Application</h4>
+                                <button className='btn btn-dark btn-top'>Deployed Application</button>
+                                <button className='btn btn-dark'>GitHub Repository</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

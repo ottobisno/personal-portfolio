@@ -1,3 +1,19 @@
+.btn {
+    width: 65%;
+}
+
+.btn-top {
+    margin-bottom: 0.5rem;
+}
+
+.bg-darker {
+    background-color: rgb(16, 16, 16);
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
 h1 {
     font-weight: bolder;
 }
@@ -14,4 +30,8 @@ h1 {
     border-radius: 5px;
     max-height: 250px;
     margin-bottom: 1rem;
+}
+
+.project-container {
+    padding: 1rem;
 }
