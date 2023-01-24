@@ -3,14 +3,15 @@ import React from "react";
 export default function Contact() {
     return (
         <div>
-            <h1>Contact Information</h1>
+                        <h1>Contact Information</h1>
+            <p>Note: Email is the preferred mehod of contact. From there we can schedule a time that works best for a phone conversation, if necessary.</p>
+            <h5>Email</h5>
             <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+                ottobisno444@gmail.com
+            </p>
+            <h5>Phone Number</h5>
+            <p>
+                (206)-434-8509
             </p>
         </div>
     );

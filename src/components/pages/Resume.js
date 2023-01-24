@@ -4,14 +4,24 @@ export default function Resume() {
     return (
         <div>
             <h1>My Resume</h1>
-            <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-            </p>
+            <p className='mt-2'>My relevant programming skills include:</p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>Express.js</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Database Theory</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Command Line</li>
+                <li>Git Workflow</li>
+                <li>And more!</li>
+            </ul>
+            <a className='fw-bold' href='https://docs.google.com/document/d/1uLa96iK3hXocI4VNUGgsuLW858o1hRep/edit?usp=sharing&ouid=117468509692571609960&rtpof=true&sd=true'>Download link for my resume</a>
         </div>
     );
 };
