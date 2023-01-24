@@ -1,5 +1,17 @@
-.body {
+h1 {
+    font-weight: bolder;
+}
+
+.portfolio-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-};
+}
+
+.profile-pic {
+    border-style: solid;
+    border-color: dark;
+    border-radius: 5px;
+    max-height: 250px;
+    margin-bottom: 1rem;
+}

@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+import profilePicture from '../../images/profile-pic.jpg'
 
 export default function About() {
     return (
         <div>
             <h1>About Me</h1>
+            <img src={profilePicture} className='profile-pic'></img>
             <p>
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
                 Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
