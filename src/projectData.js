@@ -4,6 +4,7 @@ import noteTakerImg from './images/note-taker.jpg';
 import socialNetworkImg from './images/social-network-api.jpg';
 import techBlogImg from './images/tech-blog.jpg';
 import weatherDashImg from './images/weather-dashboard.jpg';
+import CannabinodeImg from './images/cannabinode.png'
 
 const projectData = [
     {
@@ -19,10 +20,10 @@ const projectData = [
         img: movieSearchImg
     },
     {
-        title: 'Note Taker Application',
-        app: 'https://stormy-retreat-84964.herokuapp.com/',
-        repo: 'https://github.com/ottobisno/note-taker-app',
-        img: noteTakerImg
+        title: 'Cannabinode',
+        app: 'https://cannabinode.herokuapp.com/',
+        repo: 'https://github.com/Hrzonca/cannabinode',
+        img: CannabinodeImg
     },
     {
         title: 'Social Network API',
