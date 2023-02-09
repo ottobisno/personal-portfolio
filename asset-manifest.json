@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d36bf57b.css",
-    "main.js": "/react-portfolio/static/js/main.29b1585d.js",
+    "main.js": "/react-portfolio/static/js/main.a2edcb39.js",
+    "static/media/cannabinode.png": "/react-portfolio/static/media/cannabinode.ac7406c316e193115d6e.png",
     "static/media/linkedin-icon.png": "/react-portfolio/static/media/linkedin-icon.b1bebb391a157454d569.png",
     "static/media/data-deposits.jpg": "/react-portfolio/static/media/data-deposits.173498c42fdc86d27be3.jpg",
     "static/media/social-network-api.jpg": "/react-portfolio/static/media/social-network-api.e89008c8ede1dfc97e91.jpg",
     "static/media/movie-search-app.jpg": "/react-portfolio/static/media/movie-search-app.d18bec601148b8d2fff6.jpg",
     "static/media/tech-blog.jpg": "/react-portfolio/static/media/tech-blog.cdb8033bc1f1ec1eb623.jpg",
-    "static/media/note-taker.jpg": "/react-portfolio/static/media/note-taker.f685eb500d0d3b333868.jpg",
     "static/media/weather-dashboard.jpg": "/react-portfolio/static/media/weather-dashboard.ba89971a9248645a1bbd.jpg",
     "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.2f98b5088a751042203a.jpg",
     "static/media/git-icon.png": "/react-portfolio/static/media/git-icon.45d7fae4911afdf65b7e.png",
     "index.html": "/react-portfolio/index.html",
     "main.d36bf57b.css.map": "/react-portfolio/static/css/main.d36bf57b.css.map",
-    "main.29b1585d.js.map": "/react-portfolio/static/js/main.29b1585d.js.map"
+    "main.a2edcb39.js.map": "/react-portfolio/static/js/main.a2edcb39.js.map"
   },
   "entrypoints": [
     "static/css/main.d36bf57b.css",
-    "static/js/main.29b1585d.js"
+    "static/js/main.a2edcb39.js"
   ]
 }
