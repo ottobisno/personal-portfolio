@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Header from './Header';
 import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import Projects from './pages/Projects';
+import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Footer from './Footer';
 import '../styles/PortfolioContainer.css'
@@ -14,13 +14,13 @@ export default function PortfolioContainer() {
         if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'Portfolio') {
-            return <Portfolio />;
+        if (currentPage === 'Skills') {
+          return <Skills />
         }
-        if (currentPage === 'Contact') {
-            return <Contact />;
+        if (currentPage === 'Projects') {
+            return <Projects />;
         } else {
-            return <Resume />;
+            return <Contact />;
         }
     };
 

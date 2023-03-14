@@ -1,6 +1,4 @@
-import React from 'react';
 import '../styles/Footer.css';
-import twitterIcon from '../images/twitter-icon.png';
 import githubIcon from '../images/git-icon.png';
 import linkedInIcon from '../images/linkedin-icon.png';
 
