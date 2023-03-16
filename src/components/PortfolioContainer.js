@@ -8,31 +8,31 @@ import Footer from './Footer';
 import '../styles/PortfolioContainer.css'
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('About');
 
-    const renderPage = () => {
-        if (currentPage === 'About') {
-            return <About />;
-        }
-        if (currentPage === 'Skills') {
-          return <Skills />
-        }
-        if (currentPage === 'Projects') {
-            return <Projects />;
-        } else {
-            return <Contact />;
-        }
-    };
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Skills') {
+      return <Skills />
+    }
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    } else {
+      return <Contact />;
+    }
+  };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => setCurrentPage(page);
 
-    return (
-        <div className='portfolio-body'>
-            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            <div className='container my-4'>
-                {renderPage()}
-            </div>
-            <Footer />
-        </div>
-    );
+  return (
+    <div className='portfolio-body'>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className='container my-4'>
+        {renderPage()}
+      </div>
+      <Footer />
+    </div>
+  );
 };

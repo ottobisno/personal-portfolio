@@ -1,15 +1,15 @@
 .bg-darker {
-    background-color: rgb(16, 16, 16);
+  background-color: rgb(16, 16, 16);
 }
 
 .navbar-brand {
-    font-size: 2.5rem !important;
-    margin-left: 1rem;
-    font-weight: bolder;
+  font-size: 2.5rem !important;
+  margin-left: 1rem;
+  font-weight: bolder;
 }
 
 .nav-link {
-    font-size: 1.25rem !important;
-    font-weight: bold !important;
-    color: grey;
+  font-size: 1.25rem !important;
+  font-weight: bold !important;
+  color: grey;
 }
