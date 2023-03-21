@@ -10,16 +10,19 @@ body {
   width: 65%;
 }
 
-.btn-top {
-  margin-bottom: 0.5rem;
-}
-
-.bg-darker {
-  background-color: rgb(16, 16, 16);
-}
-
 .card {
   margin-bottom: 1.5rem;
+  border-color: rgb(27, 27, 27) !important;
+  border-radius: 5px !important;
+  background-color: rgba(16, 16, 16, 0.8) !important;
+}
+
+.content-box {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(27, 27, 27);
+  border-radius: 5px;
+  background-color: rgba(16, 16, 16, 0.8);
 }
 
 h1 {
@@ -49,12 +52,9 @@ h1 {
   padding: 1rem;
 }
 
-.text-box {
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 5px;
-  background-color: rgba(16, 16, 16, 0.9);
+.project-img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 @keyframes shadow {

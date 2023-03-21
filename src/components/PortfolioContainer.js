@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
   return (
     <div className='portfolio-body'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div className='container my-4'>
+      <div className='container my-auto'>
         {renderPage()}
       </div>
       <Footer />

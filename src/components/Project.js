@@ -1,14 +1,17 @@
 export default function Project({ projectData }) {
   return (
-    <div className='row'>
+    <div className="row justify-content-center">
       {projectData.map((project) => (
-        <div className='col-12 col-sm-6'>
-          <div className='card bg-darker'>
-            <img src={project.img} className='img-fluid'></img>
-            <div className='card-body d-flex flex-column text-center align-items-center'>
-              <h4>{project.title}</h4>
-              <a className='btn btn-dark btn-top' href={project.app}>Deployed Application</a>
-              <a className='btn btn-dark' href={project.repo}>GitHub Repository</a>
+        <div className="col-12 col-md-9 col-lg-5">
+          <div className="card text-light">
+            <img src={project.img} className="img-fluid project-img"></img>
+            <div className="card-body d-flex flex-column text-center align-items-center">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <div className="col-12 d-flex align-items-center">
+                <a className="btn btn-dark btn-outline-warning mx-1" href={project.app}>Live Site</a>
+                <a className="btn btn-dark btn-outline-warning mx-1" href={project.repo}>Source Code</a>
+              </div>
             </div>
           </div>
         </div>
