@@ -1,22 +1,38 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d36bf57b.css",
-    "main.js": "/react-portfolio/static/js/main.a2edcb39.js",
-    "static/media/cannabinode.png": "/react-portfolio/static/media/cannabinode.ac7406c316e193115d6e.png",
-    "static/media/linkedin-icon.png": "/react-portfolio/static/media/linkedin-icon.b1bebb391a157454d569.png",
-    "static/media/data-deposits.jpg": "/react-portfolio/static/media/data-deposits.173498c42fdc86d27be3.jpg",
-    "static/media/social-network-api.jpg": "/react-portfolio/static/media/social-network-api.e89008c8ede1dfc97e91.jpg",
-    "static/media/movie-search-app.jpg": "/react-portfolio/static/media/movie-search-app.d18bec601148b8d2fff6.jpg",
-    "static/media/tech-blog.jpg": "/react-portfolio/static/media/tech-blog.cdb8033bc1f1ec1eb623.jpg",
-    "static/media/weather-dashboard.jpg": "/react-portfolio/static/media/weather-dashboard.ba89971a9248645a1bbd.jpg",
+    "main.css": "/react-portfolio/static/css/main.b3cc33b5.css",
+    "main.js": "/react-portfolio/static/js/main.e11d04d8.js",
+    "static/media/shrub-hub.jpg": "/react-portfolio/static/media/shrub-hub.1a2dc1f2b7158da16197.jpg",
+    "static/media/speedrun-portfolio.jpg": "/react-portfolio/static/media/speedrun-portfolio.8e9739e9e830644bac73.jpg",
+    "static/media/react-icon.png": "/react-portfolio/static/media/react-icon.31d0b325361bddaebeee.png",
+    "static/media/graphql-icon.png": "/react-portfolio/static/media/graphql-icon.fc6b9451733c620ceb86.png",
+    "static/media/linkedin-icon.png": "/react-portfolio/static/media/linkedin-icon.c55a8be9d8ad4577ce4f.png",
+    "static/media/background.jpg": "/react-portfolio/static/media/background.b75f50404963ee33fcff.jpg",
+    "static/media/gmail-icon.png": "/react-portfolio/static/media/gmail-icon.7cbd6a95132896002850.png",
+    "static/media/express-icon.png": "/react-portfolio/static/media/express-icon.0491891ebc9ad6c0a1ca.png",
+    "static/media/rest-api-icon.jpg": "/react-portfolio/static/media/rest-api-icon.221006bfbd0dc186b96f.jpg",
+    "static/media/node-icon.png": "/react-portfolio/static/media/node-icon.88333e935a3c86e2bb7c.png",
+    "static/media/google-icon.png": "/react-portfolio/static/media/google-icon.cb97e7f0ca5d739025b2.png",
+    "static/media/css3-icon.png": "/react-portfolio/static/media/css3-icon.8ea58d31a9d39dd59031.png",
+    "static/media/html5-icon.png": "/react-portfolio/static/media/html5-icon.31344fdb87cfea5e0565.png",
     "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.2f98b5088a751042203a.jpg",
+    "static/media/slack-icon.png": "/react-portfolio/static/media/slack-icon.0c70ae08030483b5c6ff.png",
+    "static/media/jira-icon.png": "/react-portfolio/static/media/jira-icon.049f191c108356a69f6e.png",
+    "static/media/confluence-icon.png": "/react-portfolio/static/media/confluence-icon.58807f962a6c3d385fcc.png",
+    "static/media/handlebars-icon.png": "/react-portfolio/static/media/handlebars-icon.1ca2ba0f606416302571.png",
     "static/media/git-icon.png": "/react-portfolio/static/media/git-icon.45d7fae4911afdf65b7e.png",
+    "static/media/vscode-icon.png": "/react-portfolio/static/media/vscode-icon.0ee879f9428773c84715.png",
+    "static/media/js-icon.png": "/react-portfolio/static/media/js-icon.03c67a2837553517849d.png",
+    "static/media/mysql-icon.png": "/react-portfolio/static/media/mysql-icon.4676ad983d6bd3e9fac9.png",
+    "static/media/mongo-icon.png": "/react-portfolio/static/media/mongo-icon.b73f3b3a628a07997535.png",
+    "static/media/bootstrap-icon.png": "/react-portfolio/static/media/bootstrap-icon.b9d40f1d49fa0fc592b4.png",
+    "static/media/jquery-icon.webp": "/react-portfolio/static/media/jquery-icon.0175fa4fc7e5021cab25.webp",
     "index.html": "/react-portfolio/index.html",
-    "main.d36bf57b.css.map": "/react-portfolio/static/css/main.d36bf57b.css.map",
-    "main.a2edcb39.js.map": "/react-portfolio/static/js/main.a2edcb39.js.map"
+    "main.b3cc33b5.css.map": "/react-portfolio/static/css/main.b3cc33b5.css.map",
+    "main.e11d04d8.js.map": "/react-portfolio/static/js/main.e11d04d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d36bf57b.css",
-    "static/js/main.a2edcb39.js"
+    "static/css/main.b3cc33b5.css",
+    "static/js/main.e11d04d8.js"
   ]
 }
