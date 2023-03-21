@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Viga&display=swap');
+
 body {
   background-image: url('../images/other/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: 'Viga', sans-serif !important;
 }
 
 .btn {
   width: 65%;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
 }
 
 .card {
@@ -28,6 +33,14 @@ body {
 h1 {
   font-weight: bolder;
   color: whitesmoke;
+}
+
+.margin-neg {
+  margin-top: -16px !important;
+}
+
+.p-contact {
+  font-family: 'Istok Web', sans-serif !important;
 }
 
 .portfolio-body {

@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-darker-tp text-center text-light mt-auto">
       <div className="container p-4">
         <div className="mb-2">
-        <a href="https://www.linkedin.com/in/otto-bisno-b39392134/" className="soc-med-icon">
+        <a href="https://www.linkedin.com/in/otto-bisno/" className="soc-med-icon">
             <img src={linkedInIcon} width="35" height="35"/>
           </a>
           <a href="mailto:ottobisno444@gmail.com" className="soc-med-icon">

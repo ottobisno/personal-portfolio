@@ -9,8 +9,8 @@ export default function Project({ projectData }) {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className="col-12 d-flex align-items-center">
-                <a className="btn btn-dark btn-outline-warning mx-1" href={project.app}>Live Site</a>
-                <a className="btn btn-dark btn-outline-warning mx-1" href={project.repo}>Source Code</a>
+                <a className="btn btn-dark btn-outline-warning" href={project.app}>Live Site</a>
+                <a className="btn btn-dark btn-outline-warning" href={project.repo}>Source Code</a>
               </div>
             </div>
           </div>

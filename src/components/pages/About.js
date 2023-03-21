@@ -3,7 +3,7 @@ import profilePicture from '../../images/other/profile-pic.jpg'
 export default function About() {
   return (
     <div className="row">
-      <h1 className="col-12 mb-4 d-flex justify-content-center">About Me</h1>
+      <h1 className="col-12 my-4 d-flex justify-content-center">About Me</h1>
       <div className="col-12 col-lg-3 d-flex justify-content-center">
         <img src={profilePicture} className='img-fluid profile-pic'></img>
       </div>
