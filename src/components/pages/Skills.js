@@ -11,7 +11,7 @@ export default function Skills() {
             <h2 className="text-light text-center">Programming Skills</h2>
             <div className="row justify-content-center">
               {languageData.map((language) => {
-                return <div className="col-4 col-sm-3 col-xl-2 d-flex flex-column align-items-center py-2">
+                return <div key={language.id} className="col-4 col-sm-3 col-xl-2 d-flex flex-column align-items-center py-2">
                   <img src={language.icon} height="50" width="50" />
                   <p className="text-light text-center mb-0">{language.name}</p>
                 </div>
@@ -26,7 +26,7 @@ export default function Skills() {
             <h2 className="text-light text-center">My Toolbox</h2>
             <div className="row justify-content-center">
               {toolsData.map((tool) => {
-                return <div className="col-4 col-sm-3 d-flex flex-column align-items-center py-2">
+                return <div key={tool.id} className="col-4 col-sm-3 d-flex flex-column align-items-center py-2">
                   <img src={tool.icon} height="50" width="50" />
                   <p className="text-light text-center mb-0">{tool.name}</p>
                 </div>

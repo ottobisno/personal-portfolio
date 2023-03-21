@@ -9,34 +9,42 @@ import slack from '../images/icons/slack-icon.png';
 
 const toolsData = [
   {
+    id: 0,
     icon: git,
     name: 'GitHub'
   },
   {
+    id: 1,
     icon: vscode,
     name: 'VS Code'
   },
   {
+    id: 2,
     icon: jira,
     name: 'Jira'
   },
   {
+    id: 3,
     icon: confluence,
     name: 'Confluence'
   },
   {
+    id: 4,
     icon: mode,
     name: 'Mode'
   },
   {
+    id: 5,
     icon: msOffice,
     name: 'MS Office'
   },
   {
+    id: 6,
     icon: google,
     name: 'Google Workspace'
   },
   {
+    id: 7,
     icon: slack,
     name: 'Slack'
   }

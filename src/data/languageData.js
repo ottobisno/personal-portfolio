@@ -16,62 +16,77 @@ import restAPI from '../images/icons/rest-api-icon.jpg';
 
 const languageData = [
   {
+    id: 0,
     icon: html,
     name: 'HTML5'
   },
   {
+    id: 1,
     icon: css,
     name: 'CSS3'
   },
   {
+    id: 2,
     icon: js,
     name: 'JavaScript'
   },
   {
+    id: 3,
     icon: react,
     name: 'React.js'
   },
   {
+    id: 4,
     icon: node,
     name: 'Node.js'
   },
   {
+    id: 5,
     icon: mongo,
     name: 'MongoDB'
   },
   {
+    id: 6,
     icon: mysql,
     name: 'MySQL'
   },
   {
+    id: 7,
     icon: express,
     name: 'Express.js'
   },
   {
+    id: 8,
     icon: bootstrap,
     name: 'Bootstrap'
   },
   {
+    id: 9,
     icon: jquery,
     name: 'jQuery'
   },
   {
+    id: 10,
     icon: handlebars,
     name: 'Handlebars.js'
   },
   {
+    id: 11,
     icon: graphql,
     name: 'GraphQL'
   },
   {
+    id: 12,
     icon: cl,
     name: 'Command Line'
   },
   {
+    id: 13,
     icon: responsive,
     name: 'Responsive Design'
   },
   {
+    id: 14,
     icon: restAPI,
     name: 'RESTful APIs'
   }
